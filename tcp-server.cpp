@@ -8,9 +8,6 @@
 
 std::vector<int> clients;
 
-int client_1;
-int client_2;
-
 
 void handle_client(int client_fd) {
     char buffer[1024];
